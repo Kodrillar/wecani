@@ -23,7 +23,7 @@ class AuthOptionButton extends StatelessWidget {
             authOptionDescriptionText,
             style: TextStyle(color: Theme.of(context).colorScheme.onPrimary),
           ),
-          const SpaceW(width: 2),
+          const SpaceW(2),
           Text(authOptionText)
         ],
       ),

@@ -25,9 +25,29 @@ class AppTheme {
         backgroundColor: AppColors.lightBlue,
         elevation: 0,
       ),
-      textTheme: const TextTheme(
-        bodyMedium: TextStyle(
+      textTheme: TextTheme(
+        bodyMedium: const TextStyle(
           color: AppColors.darkPurple,
+        ),
+        headlineMedium: TextStyle(
+          color: AppColors.darkPurple,
+          fontSize: 24,
+          fontFamily: GoogleFonts.poppins(
+            textStyle: const TextStyle(
+              fontWeight: FontWeight.bold,
+            ),
+          ).fontFamily,
+        ),
+        headlineSmall: const TextStyle(
+          fontSize: 24,
+          fontWeight: FontWeight.w500,
+          color: AppColors.darkPurple,
+        ),
+        titleMedium: TextStyle(
+          color: AppColors.lightPurple,
+          fontSize: 20,
+          fontFamily:
+              GoogleFonts.poppins(fontWeight: FontWeight.bold).fontFamily,
         ),
       ),
       elevatedButtonTheme: const ElevatedButtonThemeData(

@@ -22,7 +22,7 @@ class AuthOutlinedButton extends StatelessWidget {
           Icon(
             iconData,
           ),
-          const SpaceW(width: 20),
+          const SpaceW(20),
           Text(buttonName)
         ],
       ),

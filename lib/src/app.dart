@@ -17,7 +17,7 @@ class WecaniApp extends ConsumerWidget {
       darkTheme: appTheme.getDarkTheme(),
       themeMode: ThemeMode.light,
       routes: AppRoute.routes,
-      initialRoute: AppRoutes.signUp.route,
+      initialRoute: AppRoutes.home.route,
     );
   }
 }

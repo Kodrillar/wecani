@@ -18,7 +18,7 @@ class SpaceH extends StatelessWidget {
 }
 
 class SpaceW extends StatelessWidget {
-  const SpaceW({super.key, required this.width});
+  const SpaceW(this.width, {super.key});
 
   final double width;
 

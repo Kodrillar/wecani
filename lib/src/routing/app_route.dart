@@ -20,7 +20,7 @@ enum AppRoutes {
 
 class AppRoute {
   static Map<String, Widget Function(BuildContext)> routes = {
-    AppRoutes.home.route: (context) => const HomeScreen(),
+    AppRoutes.home.route: (context) => HomeScreen(),
     AppRoutes.signUp.route: (context) => const SignUpScreen(),
     AppRoutes.signIn.route: (context) => const SignInScreen(),
     AppRoutes.passwordResetCode.route: (context) =>
